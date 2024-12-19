@@ -1,0 +1,12 @@
+# Ignore Python cache directories
+__pycache__/
+# Ignore test keys
+testkey1
+testkey1.pub
+# Ignore virtual environment
+/venv310
+# Ignore pytest cache
+.pytest_cache
+# Ignore specific __pycache__ in tests
+/tests/__pycache__/
+
