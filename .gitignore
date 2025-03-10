@@ -4,7 +4,7 @@ __pycache__/
 testkey1
 testkey1.pub
 # Ignore virtual environment
-/venv310
+/venv312
 # Ignore pytest cache
 .pytest_cache
 # Ignore specific __pycache__ in tests
