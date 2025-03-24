@@ -24,6 +24,11 @@ def test_remove_nonexistent_task(todo_manager):
     with pytest.raises(ValueError, match="Task not found."):
         todo_manager.remove_task("Do laundry")
 
+def test_remove_nonexistent_task(todo_manager):
+    with pytest.raises(ValueError, match="Task not found."):
+        todo_manager.remove_task("Dry clothes")
+
+
 def test_mark_completed(todo_manager):
     todo_manager.add_task("Go for a walk")
     todo_manager.mark_completed("Go for a walk")
