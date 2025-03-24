@@ -1,6 +1,6 @@
 ## Readme.md
 # create and activate a virtual environment:
-$ 'python3 -m venv v1'
+$ 'python3 -m venv venv312'
 $ source v1/bin/activate
 # Then install PyTest using pip:
 $ pip3 install pytest
