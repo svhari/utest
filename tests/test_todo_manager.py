@@ -10,6 +10,9 @@ def todo_manager():
 def test_add_task(todo_manager):
     todo_manager.add_task("Buy groceries")
     assert todo_manager.tasks == [{"task": "Buy groceries", "completed": False}]
+def test_add_task(todo_manager):
+    todo_manager.add_task("Buy provisions")
+    assert todo_manager.tasks == [{"task": "Buy provisions", "completed": False}]
 
 def test_add_empty_task(todo_manager):
     with pytest.raises(ValueError, match="Task cannot be empty."):
